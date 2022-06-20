@@ -1,0 +1,61 @@
+.formNewTodo {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+    /* align-items: center; */
+}
+
+.formNewTodo label {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.formNewTodo textarea {
+    width: 300px;
+    margin-bottom: 25px;
+    padding: 10px;
+    margin: 25px 0;
+}
+
+.formNewTodo .buttonNewTodo {
+    text-align: center;
+}
+
+.formNewTodo button {
+    width: 90px;
+    cursor: pointer;
+    padding: 9px 0;
+    margin: 0 10px;
+    /* color: white; */
+    border: transparent;
+    border-radius: 5px;
+}
+
+/* .formNewTodo .buttonNewTodo button:nth-child(1) {
+    background: #793706;
+}
+*/
+.formNewTodo .buttonNewTodo button:nth-child(1):hover {
+    border: 1px solid #642b00;
+    background: #a87751;
+    color: white;
+} 
+
+/* .formNewTodo .buttonNewTodo button:nth-child(2) {
+    background: #046604;
+} */
+
+.formNewTodo .buttonNewTodo button:nth-child(2):hover {
+    border: 1px solid #025202;
+    background: #4e9e4e;
+    color: white;
+}
+
+@media (max-width:640px) {
+    .formNewTodo textarea {
+        width: 200px;
+    }
+}

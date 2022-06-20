@@ -1,0 +1,58 @@
+.TodoItem {
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+    padding: 12px 12px;
+    background-color: beige;
+    margin-bottom: 18px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.icon-clipboard:before {
+    content: "\e9b8";
+    font-size: 20px;
+    /* color: rgb(2, 255, 36); */
+}
+
+.icon-clipboard {
+    cursor: pointer;
+}
+
+.icon-bin:before {
+    content: "\e9ac";
+}
+
+.icon-bin {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.icon-bin:hover {
+    color: red;
+}
+
+.TodoItem p {
+    margin: 0;
+    padding: 0 20px;
+    font-size: var(--sm);
+}
+
+.Icon-check-active {
+    color: rgb(45, 168, 2)
+}
+
+.TodoItem-p-completed {
+    text-decoration: line-through;
+}
+
+@media (max-width:640px) {
+    /* .TodoItem {
+        padding: 16px 12px;
+    } */
+
+    .TodoItem p {
+        font-size: var(--sm);
+    }
+}

@@ -1,0 +1,52 @@
+.TodoCreateTaks {
+    border: 1px solid transparent;
+    box-shadow: 2px 2px 30px 10px rgb(255 255 255 / 35%);
+    padding: 70px 50px 20px;
+    border-radius: 10px;
+}
+
+.TodoCreateTaks h1 {
+    font-size: 35px;
+    color: var(--white);
+    margin: 0;
+}
+
+.TodoCreateTaks form p {
+    color: #03ffe8;
+    margin: 50px 0 4px;
+}
+
+.TodoCreateTaks form input {
+    padding: 10px 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 90%;
+}
+
+.TodoCreateTaks button {
+    background-color: #d0007f;
+    font-size: var(--md);
+    font-weight: bold;
+    color: var(--white);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 50%;
+    height: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.TodoCreateTaks button:hover {
+    transition: .3s;
+    transform: scale(1.04);
+}
+
+@media (max-width:640px) {
+    .TodoCreateTaks {
+        display: none;
+    }
+}

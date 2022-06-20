@@ -1,0 +1,8 @@
+.TodoYourTaks {
+    padding: 70px 0 20px;
+    /* width: 380px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}

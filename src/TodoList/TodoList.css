@@ -1,0 +1,29 @@
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+}
+
+/* ::-webkit-scrollbar-track {
+    border-radius: 70px;
+} */
+
+.TodoList {
+    width: 100%;
+    margin-bottom: 30px;
+    height: 350px;
+    overflow-y: scroll;
+    padding-right: 10px;
+}
+
+.TodoList ul {
+    list-style: none;
+    padding: 0;
+}

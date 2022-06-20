@@ -1,0 +1,18 @@
+.TodoContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    place-items: center;
+    justify-content: center;
+    /* align-content: center; */
+    height: 100vh;
+    margin: auto;
+    /* background-image: linear-gradient(to left, #67f6e9, #00bdd9, #0083c1, #004a99, #000d5e); */
+    padding: 0 10px;
+    gap: 60px;
+}
+
+@media (max-width:640px) {
+    .TodoContainer {
+        grid-template-columns: auto;
+    }
+}

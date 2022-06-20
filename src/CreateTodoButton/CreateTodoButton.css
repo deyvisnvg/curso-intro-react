@@ -1,0 +1,45 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --dark: #232830;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --marron: #6c0606;
+    --celeste: #041772;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+
+.CreateTodoButton {
+    background-color: var(--celeste);
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--white);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: none;
+    z-index: 1;
+    transform: rotate(0);
+    transition: .3s ease;
+}
+
+.CreateTodoButton:hover {
+    /* transform: scale(1.04);
+    transition: .3s; */
+    transform: rotate(180deg);
+}
+
+@media (max-width:640px) {
+    .CreateTodoButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

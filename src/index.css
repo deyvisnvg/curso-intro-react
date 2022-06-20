@@ -1,3 +1,16 @@
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --dark: #232830;
+  --very-light-pink: #C7C7C7;
+  --text-input-field: #F7F7F7;
+  --marron: #6c0606;
+  --celeste: #041772;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +18,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left, #67f6e9, #00bdd9, #0083c1, #004a99, #000d5e);
 }
 
 code {
