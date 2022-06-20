@@ -40,7 +40,7 @@ function TodoProvider(props) {
     const searchedTodos = todos.filter(todo => todo.text.toLowerCase().includes(searchValue.toLowerCase()));
 
     const completeTodo = text => {
-        alert('Ya completaste el TODO ' + text);
+        // alert('Ya completaste el TODO ' + text);
         const todoIndex = todos.findIndex(todo => todo.text === text);
         const newTodos = [...todos]; // Un Array injectados con todos los TODOs(tudus) que teníamos antes, es como tener una copia.
         newTodos[todoIndex].completed = true;
@@ -48,7 +48,7 @@ function TodoProvider(props) {
     }
 
     const addTodo = text => {
-        alert('New TODO agregado: ' + text);
+        // alert('New TODO agregado: ' + text);
         const newTodos = [...todos]; // Un Array injectados con todos los TODOs(tudus) que teníamos antes, es como tener una copia.
         newTodos.push({
             completed: false,
@@ -58,7 +58,7 @@ function TodoProvider(props) {
     }
 
     const deleteTodo = text => {
-        alert('Eliminaste el TODO ' + text);
+        // alert('Eliminaste el TODO ' + text);
         const todoIndex = todos.findIndex(todo => todo.text === text);
         const newTodos = [...todos]; // Un Array injectados con todos los TODOs(tudus) que teníamos antes, es como tener una copia.
         newTodos.splice(todoIndex, 1);

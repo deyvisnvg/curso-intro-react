@@ -7,7 +7,7 @@ function TodoSearch() {
     const { searchValue, setSearchValue } = React.useContext(TodoContext);
 
     const onSearchValueChange = event => {
-        console.log(event.target.value);
+        // console.log(event.target.value);
         setSearchValue(event.target.value)
     }
 
@@ -18,7 +18,7 @@ function TodoSearch() {
             onChange={onSearchValueChange}
         // onChange={() => setState("Alexandra")}
         />,
-        <p key={searchValue}>{searchValue}</p>
+        // <p key={searchValue}>{searchValue}</p>
     ]
 }
 
